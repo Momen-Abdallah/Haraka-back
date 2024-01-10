@@ -50,4 +50,4 @@ jobs:
           app-name: 'Haraka-back'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E29AFC3968844161B63CE98A8F057F58 }}
-          package: '*.jar'
+          package: '*.war'
